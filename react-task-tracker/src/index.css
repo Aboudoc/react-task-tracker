@@ -16,7 +16,7 @@ body {
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
-  padding: 1px;
+  padding: 30px;
   border-radius: 5px;
   /* background-color: #313133a4; */
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .task {
-  background: #f4f4f431;
+  background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
@@ -70,6 +70,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.add-form {
+  margin-bottom: 40px;
 }
 
 .form-control {
